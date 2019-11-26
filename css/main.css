@@ -100,7 +100,7 @@ h2.Figures-title {
 .figures-wrapper .figure{
   flex: 0 0 50%;
   text-align: center;
-  font-size: 90px;
+  font-size: !90px;
   font-family: 'Roboto Mono'; sans-serif;
   margin-bottom: 20px;
 }
@@ -108,4 +108,6 @@ h2.Figures-title {
 .figures-wrapper .figure span{
   font-size: 20px;
   display: block;
+  font-family: 'Roboto Mono'; sans-serif;
+  text-transform: uppercase;
 }
